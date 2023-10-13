@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(SelectionListApp());
+  runApp(MyApp());
 }
 
-class SelectionListApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
